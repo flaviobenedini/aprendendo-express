@@ -4,18 +4,27 @@
   "description": "Repositório para criarmos um servidor Node através do Express",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/flaviobenedini/aprendendo-express.git"
   },
-  "keywords": [],
+  "keywords": [
+    "nodejs",
+    "express"
+  ],
   "author": "Flavio Benedini",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/flaviobenedini/aprendendo-express/issues"
   },
-  "homepage": "https://github.com/flaviobenedini/aprendendo-express#readme"
+  "homepage": "https://github.com/flaviobenedini/aprendendo-express#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
 }
